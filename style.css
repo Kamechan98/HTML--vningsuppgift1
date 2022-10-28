@@ -14,6 +14,7 @@
   }
   div {
     margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   h1{
@@ -71,6 +72,7 @@ body {
     padding: 5px;
 }
 
+
 img {
     border: 4px solid black;
     height: 600px;
@@ -86,8 +88,8 @@ ol {
 
 }
 
-li {
-    font-size: large;
+li, h2 {
+    font-size: x-large;
     font-style: bold;
     list-style-position: outside;
     font-weight: bold;
