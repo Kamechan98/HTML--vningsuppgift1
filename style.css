@@ -6,11 +6,47 @@
   }
   header {
     text-align: center;
+    margin-top: 0px;
+    width: 100%;
+    height: 90px;
+    border: 3px solid black;
+  }
+
+  h1{
+    text-align: center;
   }
   #first-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 1300px;
     height: 600px;
   }
+  nav {
+    height: 150px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display:block;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    height: 90px;
+    width: 500px;
+    margin: 0px;
+    padding: 30px;
+    font-size: large;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    border: solid 1px rgb(67, 67, 67);
+    align-items: center;
+}
+.button{
+    float: left;
+}
 
 body {
     background-color: hsl(347, 73%, 34%); 
