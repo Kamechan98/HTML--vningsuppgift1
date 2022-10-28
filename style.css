@@ -1,12 +1,13 @@
 * {
-    margin: 5;
-    padding: 5;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   header {
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 0px;
     width: 100%;
     height: 90px;
     border: 3px solid black;
@@ -14,6 +15,7 @@
 
   h1{
     text-align: center;
+    margin-top: 15px;
   }
   #first-pic {
     display: block;
@@ -35,13 +37,13 @@
     display: inline-block;
     text-align: center;
     height: 90px;
-    width: 500px;
+    width: 506px;
     margin: 0px;
-    padding: 30px;
+    padding-top: 30px;
     font-size: large;
     background-color: rgb(24, 24, 24);
     color: white;
-    border: solid 1px rgb(67, 67, 67);
+    border: solid 3px rgb(67, 67, 67);
     align-items: center;
 }
 .button{
@@ -49,19 +51,19 @@
 }
 
 body {
-    background-color: hsl(347, 73%, 34%); 
+    background-color: hsl(347, 73%, 34%);
 }
 
 .column1 {
     float: left;
-    width: 50%;
-    margin: 0px;
-    padding: 0px;
+    width: 40%;
+    margin: 15px;
+    padding: 5px;
 }
 .column2 {
     float: right;
-    width: 50%;
-    margin: 0px;
+    width: 40%;
+    margin: 15px;
     padding: 0px;
 }
 
@@ -72,15 +74,27 @@ img {
     display: inline;
     
 }
+
 ol {
-    font-size: medium;
+    list-style:symbols(1);
+    padding: 0px;
+
 }
 
-ul {
-    font-size: medium;
+ol li {
+    font-size: large;
+    font-style: bold;
+    list-style-position: outside;
+    font-weight: bold;
+    margin-left: 1px;
+    position: relative;
     
 }
 
-aside {
-    margin-right: 0px;
+ul li {
+    font-size: medium;
+    font-style: bold;
+    list-style-position: outside;
+    font-weight: bold;
+    
 }

@@ -79,13 +79,18 @@ article {
     color: white;
     text-align: center;
     width: 900px;
-    height: 600px;
+    height: 1000px;
     padding: 0px;
     margin-top: 10px;
     margin-left: 300px;
     margin-right: 300px;
     background-color: dimgray;
     border: 3px solid black;
+}
+
+img {
+    width: 500px;
+    height: 500px;
 }
 
 label {
